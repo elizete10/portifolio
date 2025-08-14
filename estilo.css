@@ -1,0 +1,27 @@
+:root {
+--primary:  #22211e;
+--secundary:#dacb48;
+
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: var(--light);
+  color: var(--primary);
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: var(--light);
+  color: var(--primary);
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--primary);
+}
