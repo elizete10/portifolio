@@ -1,27 +1,93 @@
 :root {
---primary:  #22211e;
---secundary:#dacb48;
+  --texto: #8772fc;
+  --secundary: #f80015;
+  --borda: #c6a7ff;
+  --fundo: #000000;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Segoe UI", sans-serif;
-  background: var(--light);
-  color: var(--primary);
-  line-height: 1.6;
-  padding: 1rem;
-}
-
-
-body {
-  font-family: "Segoe UI", sans-serif;
-  background: var(--light);
-  color: var(--primary);
-  line-height: 1.6;
-  padding: 1rem;
+  background-color: var(--fundo);
+  color: var(--texto);
+  line-height: 1.8;
+  padding: 3rem;
 }
 
 h1 {
-  font-size: 2rem;
-  color: var(--primary);
+  font-size: 1.5rem;
+  color: var(--texto);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 3;
+}
+
+header .profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 80%;
+  border: 4px solid var(--texto);
+  margin-bottom: 1rem;
+}
+
+p {
+  color: var(--secondary);
+}
+
+main {
+  max-width: 700px;
+  margin: 8 auto;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: var(--borda);
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 8;
+}
+
+ul li {
+  background: var(--borda);
+  color: rgb(0, 0, 0);
+  padding: 0.9rem 32rem;
+  border-radius: 10px;
+  margin: 0.5rem 0;
+}
+
+.links ul li {
+  background: transparent;
+}
+
+.links a {
+  color: var(--texto);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  color: var(--borda);
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+  color: #888;
 }
